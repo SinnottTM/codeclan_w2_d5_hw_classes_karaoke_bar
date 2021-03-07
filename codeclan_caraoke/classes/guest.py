@@ -8,7 +8,3 @@ class Guest:
         self.name = name
         self.wallet = wallet
         self.favourite_song = favourite_song
-
-    # def whatever(self):
-    #   some_logic
-    #   return bleh

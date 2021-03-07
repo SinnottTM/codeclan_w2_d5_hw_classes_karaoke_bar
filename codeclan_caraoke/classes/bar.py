@@ -2,16 +2,13 @@ class Bar:
 
     name = str
     karaoke_rooms = []
-    price = float
+    entry_price = float
+    lobby = []
     total_guests = int
 
-    def __init__(self, name, karaoke_rooms, price, total_guests):
+    def __init__(self, name, karaoke_rooms, entry_price, lobby, total_guests):
         self.name = name
         self.karaoke_rooms = karaoke_rooms
-        self.price = price
+        self.entry_price = entry_price
+        self.lobby = lobby
         self.total_guests = total_guests
-
-    # def whatever(self):
-    #   some_logic
-    #   return bleh
-
